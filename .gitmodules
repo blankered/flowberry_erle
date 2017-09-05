@@ -1,0 +1,9 @@
+[submodule "c_library_v1"]
+	path = c_library_v1
+	url = https://github.com/mavlink/c_library_v1.git
+[submodule "lib/userland"]
+	path = lib/userland
+	url = https://github.com/raspberrypi/userland.git
+[submodule "lib/c_library_v1"]
+	path = lib/c_library_v1
+	url = https://github.com/mavlink/c_library_v1.git
