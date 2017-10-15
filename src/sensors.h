@@ -3,7 +3,7 @@
 
 #include "common.h"
 
-#include "opencv2/core/utility.hpp"
+#include <opencv2/core/utility.hpp>
 
 typedef struct sensors_data {
 	struct {

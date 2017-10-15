@@ -2,7 +2,7 @@
 #define CV_IMG_H
 
 #include <stdint.h>
-#include "opencv2/imgproc/imgproc.hpp"
+#include <opencv2/imgproc/imgproc.hpp>
 
 class cv_img
 {

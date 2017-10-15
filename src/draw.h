@@ -4,8 +4,7 @@
 #include "common.h"
 #include "cv_img.h"
 #include "cv_imv.h"
-
-#include "opencv2/imgproc/imgproc.hpp"
+#include <opencv2/imgproc/imgproc.hpp>
 
 void draw_init(int width, int height);
 

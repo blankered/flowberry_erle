@@ -1,7 +1,7 @@
 #ifndef MOTION_H
 #define MOTION_H
 
-#include "opencv2/core/utility.hpp"
+#include <opencv2/core/utility.hpp>
 
 #include "common.h"
 #include "cv_imv.h"

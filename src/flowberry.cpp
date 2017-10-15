@@ -6,10 +6,10 @@
 #include <iostream>
 #include <pthread.h>
 
-#include "opencv2/core/utility.hpp"
-#include "opencv2/highgui/highgui.hpp"
-#include "opencv2/imgproc/imgproc.hpp"
-#include "opencv2/optflow.hpp"
+#include <opencv2/core/utility.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/optflow.hpp>
 
 #include "cv.h"
 #include "cv_queue.h"
