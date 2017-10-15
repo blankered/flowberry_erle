@@ -20,7 +20,6 @@
 #include "motion.h"
 #include "sensors.h"
 #include "mavlog.h"
-#include "ffmpeg.h"
 #include "transform.h"
 #include "raspividcv.h"
 
