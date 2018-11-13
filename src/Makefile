@@ -40,7 +40,7 @@ CFLAGS = $(ARCHFLAGS) $(DBGFLAGS) $(OPTFLAGS) -std=gnu99 -Wall -Wno-format \
 #CFLAGS += -flto
 
 CXXFLAGS = $(ARCHFLAGS) $(DBGFLAGS) $(OPTFLAGS) `pkg-config --cflags opencv` \
-           -std=c++0x -Wno-format -Werror -ffunction-sections -fdata-sections
+           -std=c++0x -Wno-format  -ffunction-sections -fdata-sections
 
 # LD: Remove unused sections, link with MMAL, generate map
 LDFLAGS = $(ARCHFLAGS) $(DBGFLAGS) $(OPTFLAGS) -Wl,--gc-sections
